@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    position: absolute;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(#000, 70%, #4C4E52);
@@ -11,49 +12,45 @@ body {
 }
 
 .About {
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: "Roboto";
+    margin-top: 440px;
     width: 100%;
-    height: 100%;
 }
 
 .Info {
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     justify-content: center;
     color: #777;
     font-family: "Roboto";
     width: 100%;
-    height: 100%;
-    margin-top: 50px;
+    margin-top: 492px;
 }
 
 .Experience {
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     justify-content: center;
     color: #ccc;
     width: 100%;
-    height: 100%;
-    margin-top: 100px;
+    margin-top: 540px;
     font-family: "Roboto";
     font-weight: 400;
 }
 
 .Arrow {
-    font-size: 0.8em !important;
     display: flex;
-    position: fixed;
+    position: absolute;
     color: white;
     align-items: center;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 900px;
     width: 100%;
-    height: 100%;
 }
