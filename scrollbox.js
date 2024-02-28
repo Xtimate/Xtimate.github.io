@@ -1,11 +1,10 @@
-var btn_process = document.getElementById('creation-process');
+var btn_process = document.getElementById('myBtn');
 var lightbox = document.getElementById('lightbox');
 var x = document.getElementById('x');
 
-btn_process.onclick = function () {
-	lightbox.style.display = 'block';
-};
 
-x.onclick = function () {
-	lightbox.style.display = 'none';
+
+function MyFunction(x, y) {
+	window.scrollTo(x, document.body.scrollHeight)
 }
+
