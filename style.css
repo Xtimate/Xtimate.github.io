@@ -4,12 +4,13 @@ html {
     height: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
+
 }
 
 p {
     font-family: "Roboto";
-    color: white;
 }
+
 
 body {
     position: absolute;
@@ -28,6 +29,7 @@ body {
     color: white;
     font-family: "Roboto";
     width: 100%;
+    margin-top: 10%;
 }
 
 .Info {
@@ -36,6 +38,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 14%;
+    color: gray;
+
 }
 
 .Experience {
@@ -47,6 +52,7 @@ body {
     width: 100%;
     font-family: "Roboto";
     font-weight: 400;
+    margin-top: 30%;
 }
 
 .Arrow {
@@ -56,17 +62,20 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 45%;
 
 }
 
 .Box {
     display: flex;
     position: absolute;
-    margin-top: 977px;
-    width: 100%;
+    margin-top: 50%;
+    ;
     height: 100%;
-    text-align: center;
     background-color: #09f;
+    margin-left: -1%;
+    padding-left: 2%;
+    width: 100%;
 }
 
 .button {
@@ -78,4 +87,7 @@ body {
 
 .MyWork {
     display: flex;
+    color: black;
+    height: auto;
+
 }
