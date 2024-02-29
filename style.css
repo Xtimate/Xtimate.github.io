@@ -70,7 +70,6 @@ body {
     display: flex;
     position: absolute;
     margin-top: 50%;
-    ;
     height: 100%;
     background-color: #09f;
     margin-left: -1%;
@@ -90,4 +89,24 @@ body {
     color: black;
     height: auto;
 
+}
+.topbutton{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 95%;
+    height: 30px;
+    color: #09f;
+}
+
+.nein {
+    border: none;
+    background-color: #09a;
+    cursor: pointer;
+    color: white;
+    margin-left: -1%;
+    width: 100%;
+    height: 200%;
 }

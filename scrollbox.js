@@ -4,7 +4,14 @@ var x = document.getElementById('x');
 
 
 
-function MyFunction(x, y) {
+function ScrollDown(x, y) {
 	window.scrollTo(x, document.body.scrollHeight)
 }
 
+function ScrollUp(x, y){
+	window.scrollTo(x, -document.body.scrollHeight)
+}
+
+function mFunction() {
+	console.log(getElementById(buttontop));
+}
