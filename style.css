@@ -80,7 +80,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 47%;
+    margin-top: 45%;
 
 }
 
@@ -123,8 +123,7 @@ body {
     background-color: #09a;
     cursor: pointer;
     color: white;
-    margin-left: -1%;
-    width: 100%;
+    width: 105%;
     height:  500%;
 }
 
@@ -184,7 +183,7 @@ li::after {
   scale: 0 1;
 
   transition-timing-function: ease;
-  transition-duration: 250ms;
+  transition-duration: 1000ms;
   transition-property: scale, translate;
 }
 
