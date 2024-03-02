@@ -4,7 +4,7 @@ html {
     height: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
-
+    overflow-y: hidden;
 }
 
 p {
@@ -57,7 +57,7 @@ body {
     font-family: "Roboto";
     font-weight: 400;
     padding-top: 400px;;
-    
+    padding-right: 1%;
 }
 
 .Intro {
