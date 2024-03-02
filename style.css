@@ -153,6 +153,13 @@ ul {
   text-transform: capitalize;
 }
 
+nav {
+  width: 947,2px;
+  align-content: center;
+  justify-content: center;
+
+}
+
 /* main stuff */
 ul {
   display: flex;
