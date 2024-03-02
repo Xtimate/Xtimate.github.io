@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-self: center;
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 35%;
 }
 
 .About {
@@ -38,7 +38,6 @@ body {
     justify-content: center;
     align-content: center;
     width: 100%;
-    margin-top: 15%;
 }
 
 /* resets */
